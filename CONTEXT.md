@@ -25,7 +25,7 @@
 - no contested/redesign signals relevant to trivial doc/typo work
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
-- 2026-09-03 trivial/minor-fix pass (loop-trivial) — outcome: see tried-repos.jsonl
+- 2026-09-03 trivial/minor-fix pass (loop-trivial) — PR #1 opened (fix/docs-cleanup): 7 genuine doc fixes (Factory.define->FactoryBot.define x2, missing `do`, callback counts 4->7 and 6->7, missing comma x2). 2 dead links found but left unfixed (no replacement URL).
 
 ## Mined gaps (discovered, not yet attempted)
 - none yet
