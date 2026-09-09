@@ -26,6 +26,7 @@
 
 ## Gap ledger (dedupe — READ FIRST, never re-pick)
 - 2026-09-03 trivial/minor-fix pass (loop-trivial) — PR #1 opened (fix/docs-cleanup): 7 genuine doc fixes (Factory.define->FactoryBot.define x2, missing `do`, callback counts 4->7 and 6->7, missing comma x2). 2 dead links found but left unfixed (no replacement URL).
+- 2026-09-09 trivial/minor-fix pass (loop-trivial) — PR #2 opened (fix/typo-cleanup): 4 genuine typo fixes (SECURITY.md "the the", register_strategy.md `initalize_with`, rewinding.md `factoryBot.rewind_sequence`, REPRODUCTION_SCRIPT.rb "reproduct"). GETTING_STARTED.md "four callbacks" verified CORRECT (its list has 4) — do not re-fix.
 
 ## Mined gaps (discovered, not yet attempted)
 - none yet
