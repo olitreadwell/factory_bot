@@ -18,7 +18,7 @@ ActiveRecord::Base.logger = Logger.new(STDOUT)
 
 ActiveRecord::Schema.define do
   # TODO: Update the schema to include the specific tables or columns necessary
-  # to reproduct the bug
+  # to reproduce the bug
   create_table :posts, force: true do |t|
     t.string :body
   end
