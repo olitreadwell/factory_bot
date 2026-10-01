@@ -10,7 +10,7 @@ an association, sequence, trait, or attribute to the factory:
 1. If the method missing is passed a block, it always defines an attribute.
    This allows you to set the value for the attribute.
 
-1. If the method missing is passed a hash as a argument with the key
+1. If the method missing is passed a hash as an argument with the key
    `:factory`, then it always defines an association. This allows you to
    override the factory used for the association.
 

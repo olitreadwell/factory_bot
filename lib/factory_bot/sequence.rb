@@ -122,7 +122,7 @@ module FactoryBot
           increment_value
         end
 
-        # loop auto-recues a StopIteration error, so if we
+        # loop auto-rescues a StopIteration error, so if we
         # reached this point, re-raise it now
         fail StopIteration
       end
