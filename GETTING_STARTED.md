@@ -1862,7 +1862,7 @@ factory :user do
     comments_count { 5 }
   end
 
-  name "John Doe"
+  name { "John Doe" }
 
   initialize_with { new(**attributes) }
 end
@@ -2116,7 +2116,7 @@ config.before(:suite) do
     traits = payload[:traits]
     factory_bot_results[factory_class] ||= {}
     factory_bot_results[factory_class][factory_name] = {
-      attributes: attributes.map(&:name)
+      attributes: attributes.map(&:name),
       traits: traits.map(&:name)
     }
   end
