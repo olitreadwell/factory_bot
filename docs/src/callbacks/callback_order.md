@@ -38,7 +38,7 @@ build(:user, :trait_b, :trait_a)
 #
 # 1. "Global before(:all)"
 # 2. "User before(:all)"
-# 3. "User before(:build)
+# 3. "User before(:build)"
 # 4. "Trait-B before(:build)"
 # 5. "Trait-A before(:build)"
 # 6. "User after(:build)"
