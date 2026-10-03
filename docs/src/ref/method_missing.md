@@ -1,7 +1,7 @@
 # method_missing
 
 With a `factory` definition block, you can use `add_attribute`, `association`,
-`sequence`, and `trait` to define a factory. You can also level a default
+`sequence`, and `trait` to define a factory. You can also leave a default
 `method_missing` definition for potential shortcuts.
 
 Calling an unknown method (e.g. `name`, `admin`, `email`, `account`) connects
