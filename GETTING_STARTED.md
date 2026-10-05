@@ -430,7 +430,7 @@ factory :user do
 end
 
 create(:user).name
-#=> "John Doe - ROCKSTAR"
+#=> "John Doe - Rockstar"
 
 create(:user, rockstar: false).name
 #=> "John Doe"
@@ -1262,7 +1262,7 @@ factory :user do
   trait :active do
     name { "John Doe" }
     status { :active }
-    login { "#{name} (M)" }
+    login { "#{name}" }
   end
 
   factory :brandon do
