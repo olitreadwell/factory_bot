@@ -68,7 +68,7 @@ config.before(:suite) do
     traits = payload[:traits]
     factory_bot_results[factory_class] ||= {}
     factory_bot_results[factory_class][factory_name] = {
-      attributes: attributes.map(&:name)
+      attributes: attributes.map(&:name),
       traits: traits.map(&:name)
     }
   end

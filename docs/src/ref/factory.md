@@ -13,7 +13,7 @@ The name is expected to be a Symbol.
 - `:class` - what class to construct. This can be either a class, or a String
   or Symbol (anything that responds to `#to_s`). By default it is either the
   parent's class name or the factory's name.
-- `:parent`- the name of another factory that this factory should inherit from.
+- `:parent` - the name of another factory that this factory should inherit from.
   Defaults to `nil`.
 - `:aliases` - alternative names for this factory. Any of these names can be
   used with a build strategy. Defaults to the empty list.
