@@ -430,7 +430,7 @@ factory :user do
 end
 
 create(:user).name
-#=> "John Doe - ROCKSTAR"
+#=> "John Doe - Rockstar"
 
 create(:user, rockstar: false).name
 #=> "John Doe"
@@ -1262,7 +1262,7 @@ factory :user do
   trait :active do
     name { "John Doe" }
     status { :active }
-    login { "#{name} (M)" }
+    login { "#{name}" }
   end
 
   factory :brandon do
@@ -1862,7 +1862,7 @@ factory :user do
     comments_count { 5 }
   end
 
-  name "John Doe"
+  name { "John Doe" }
 
   initialize_with { new(**attributes) }
 end
@@ -1932,7 +1932,7 @@ hash based on the attributes defined in the factory), and `create`, which
 executes the `to_create` callback defined on the factory.
 
 To understand how factory\_bot uses strategies internally, it's probably
-easiest to just view the source for each of the four default strategies.
+easiest to just view the source for each of the five default strategies.
 
 Here's an example of composing a strategy using
 `FactoryBot::Strategy::Create` to build a JSON representation of your model.
@@ -2116,7 +2116,7 @@ config.before(:suite) do
     traits = payload[:traits]
     factory_bot_results[factory_class] ||= {}
     factory_bot_results[factory_class][factory_name] = {
-      attributes: attributes.map(&:name)
+      attributes: attributes.map(&:name),
       traits: traits.map(&:name)
     }
   end

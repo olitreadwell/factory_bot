@@ -1,6 +1,6 @@
 # Setting the value
 
-When testing or working in the console, being able to set the sequence to a specific value, is incredibly helpful. This can be achieved by passing the [sequence URI](sequence-uris.md) and the new value to `FactoryBot.set_sequence`:
+When testing or working in the console, being able to set the sequence to a specific value is incredibly helpful. This can be achieved by passing the [sequence URI](sequence-uris.md) and the new value to `FactoryBot.set_sequence`:
 
 ## Global Sequences
 

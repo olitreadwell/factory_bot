@@ -4,10 +4,10 @@ A factory\_bot set up supports two levels of sequences: global and factory-speci
 
 ## Global sequences
 
-With a [`Factory.define`] block, use the `sequence` method to define global
+With a [`FactoryBot.define`] block, use the `sequence` method to define global
 sequences that can be shared with other factories.
 
-[`Factory.define`]: define.html
+[`FactoryBot.define`]: define.html
 
 The `sequence` method takes a name, optional arguments, and a block. The name
 is expected to be a Symbol.

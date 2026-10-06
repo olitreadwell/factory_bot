@@ -6,12 +6,12 @@ module FactoryBot
     delegate :size, :any?, :empty?, :each?, :include?, :first, to: :@uri_list
     delegate :build_uri, to: :class
 
-    # Concatenate the parts, sripping leading/following slashes
+    # Concatenate the parts, stripping leading/following slashes
     # and returning a Symbolized String or nil.
     #
     # Example:
     #   build_uri(:my_factory, :my_trait, :my_sequence)
-    #   #=> :"myfactory/my_trait/my_sequence"
+    #   #=> :"my_factory/my_trait/my_sequence"
     #
     def self.build_uri(*parts)
       return nil if parts.empty?
