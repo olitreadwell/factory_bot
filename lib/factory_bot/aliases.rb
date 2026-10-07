@@ -5,7 +5,7 @@ module FactoryBot
 
   self.aliases = [
     [/(.+)_id/, '\1'],
-    [/(.*)/, '\1_id']
+    [/(.+)(?<!_id)\z/, '\1_id']
   ]
 
   def self.aliases_for(attribute)
