@@ -261,7 +261,7 @@ describe "trait indifferent access" do
       expect(user).to be_admin
     end
 
-    it "can be invoked with as integer" do
+    it "can be invoked with an integer" do
       build_user_factory_with_admin_trait(42)
 
       user = FactoryBot.build(:user, 42)

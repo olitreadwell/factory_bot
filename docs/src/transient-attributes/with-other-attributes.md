@@ -13,7 +13,7 @@ factory :user do
 end
 
 create(:user).name
-#=> "John Doe - ROCKSTAR"
+#=> "John Doe - Rockstar"
 
 create(:user, rockstar: false).name
 #=> "John Doe"

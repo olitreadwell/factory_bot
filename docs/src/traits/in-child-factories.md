@@ -10,7 +10,7 @@ factory :user do
   trait :active do
     name { "John Doe" }
     status { :active }
-    login { "#{name} (M)" }
+    login { "#{name}" }
   end
 
   factory :brandon do

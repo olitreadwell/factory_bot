@@ -79,7 +79,7 @@ It is possible for a single sequence to have multiple URIs.
 
 If the factory or trait has aliases, the sequence will have an additional URI for each alias, or combination of aliases.
 
-In this example, the same sequence can referenced in four different ways:
+In this example, the same sequence can be referenced in four different ways:
 
 ```ruby
 factory :user, aliases: [:author] do

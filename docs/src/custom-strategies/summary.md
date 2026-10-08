@@ -12,7 +12,7 @@ the attributes defined in the factory), and `create`, which executes the
 `to_create` callback defined on the factory.
 
 To understand how factory\_bot uses strategies internally, it's probably
-easiest to view the source for each of the four default strategies.
+easiest to view the source for each of the five default strategies.
 
 Here's an example of composing a strategy using `FactoryBot::Strategy::Create`
 to build a JSON representation of your model.

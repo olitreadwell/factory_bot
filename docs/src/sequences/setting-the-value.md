@@ -1,6 +1,6 @@
 # Setting the value
 
-When testing or working in the console, being able to set the sequence to a specific value, is incredibly helpful. This can be achieved by passing the [sequence URI](sequence-uris.md) and the new value to `FactoryBot.set_sequence`:
+When testing or working in the console, being able to set the sequence to a specific value is incredibly helpful. This can be achieved by passing the [sequence URI](sequence-uris.md) and the new value to `FactoryBot.set_sequence`:
 
 ## Global Sequences
 
@@ -48,7 +48,7 @@ generate(:user, :with_email, :email) # "user_1234567@example.com"
 
 - A fixed collection sequence can accept any value within the collection.
 
-- An unlimited sequence, such as a character `sequence(:unlimited,'a')` will timeout if not found within the default maximum search time of three seconds.
+- An unlimited sequence, such as a character `sequence(:unlimited,'a')` will time out if not found within the default maximum search time of three seconds.
 
 - The timeout can be configured with: `FactoryBot.sequence_setting_timeout = 1.5`
 

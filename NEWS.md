@@ -51,7 +51,7 @@
   * Fixes issue #1754 where `#generate` was throwing an error
   * Refactors the `#increment_sequence` method to remove the URI requirement
 * Fix: Cleans up ActiveSupport core extensions (Neil Carvalho)
-* Fix: Addresses issue #1709 with resolution of conflict between '<attribute>' and '<attribute_id>` (CodeMeister)
+* Fix: Addresses issue #1709 with resolution of conflict between '<attribute>' and '<attribute_id>' (CodeMeister)
 * Fix: Addresses issue #1712 by ensuring callbacks only run once per instance (CodeMeister)
 * Docs: Downcase of the word "constants" in  `.irbrc` file (CodeMeister)
 * Docs: Update docs with note clarifying when the full namespace is required in a factory (John Pitchko)
@@ -261,7 +261,7 @@
 
 * Documentation: Include .yardopts in the gem to fix broken RubyDoc links
 
-## 4.11.0 (August, 15, 2018)
+## 4.11.0 (August 15, 2018)
 
 * Bugfix: Do not raise error for valid build_stubbed methods: decrement, increment, and toggle
 * Bugfix: Do not add timestamps with build_stubbed for objects that shouldn't have timestamps
