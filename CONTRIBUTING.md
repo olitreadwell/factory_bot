@@ -65,7 +65,7 @@ The default rake task will run the full test suite and [standard]:
 bundle exec rake
 ```
 
-You can also run a single group of tests (unit, spec, or feature)
+You can also run a single group of tests (unit, acceptance, or feature)
 
 ```sh
 bundle exec rake spec:unit
