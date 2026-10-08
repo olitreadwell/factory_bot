@@ -80,10 +80,10 @@ bundle exec rspec spec/path/to/spec.rb:123
 ```
 
 You can run tests with a specific version of rails via [appraisal]. To run
-the default rake task against Rails 6, for example:
+the default rake task against Rails 7, for example:
 
 ```sh
-bundle exec appraisal 6.0 rake
+bundle exec appraisal 7.0 rake
 ```
 
 ## Formatting

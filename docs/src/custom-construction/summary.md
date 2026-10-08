@@ -64,7 +64,7 @@ factory :user do
     comments_count { 5 }
   end
 
-  name "John Doe"
+  name { "John Doe" }
 
   initialize_with { new(**attributes) }
 end

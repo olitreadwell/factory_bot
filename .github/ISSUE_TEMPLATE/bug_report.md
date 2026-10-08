@@ -18,7 +18,7 @@ of Conduct: https://thoughtbot.com/open-source-code-of-conduct -->
 
 <!-- Steps for others to reproduce the bug. Be as specific as possible. A
 reproduction script or link to a sample application that demonstrates the
-problem are especially helpful. -->
+problem is especially helpful. -->
 
 <!-- You can create a reproduction script by copying this sample reproduction
 script and adding whatever code is necessary to get a failing test case:

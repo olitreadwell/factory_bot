@@ -115,7 +115,7 @@ module FactoryBot
       #   The next value in the sequence. (Object)
       #
       # Example:
-      #   generate(:my_factory, :my_trair, :my_sequence)
+      #   generate(:my_factory, :my_trait, :my_sequence)
       #
       def generate(*uri_parts, scope: nil)
         uri = FactoryBot::UriManager.build_uri(uri_parts)
@@ -139,7 +139,7 @@ module FactoryBot
       #   The next value in the sequence. (Object)
       #
       # Example:
-      #   generate_list(:my_factory, :my_trair, :my_sequence, 5)
+      #   generate_list(:my_factory, :my_trait, :my_sequence, 5)
       #
       def generate_list(*uri_parts, count, scope: nil)
         uri = FactoryBot::UriManager.build_uri(uri_parts)

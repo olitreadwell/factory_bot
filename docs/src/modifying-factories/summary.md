@@ -47,6 +47,6 @@ operates on factories differently.
 
 A caveat: you can only modify factories (not sequences or traits), and
 callbacks *still compound as they normally would*. So, if the factory you're
-modifying defines an `after(:create)` callback, you defining an
+modifying defines an `after(:create)` callback, your defining an
 `after(:create)` won't override it, it will instead be run after the first
 callback.
