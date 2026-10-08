@@ -261,7 +261,7 @@
 
 * Documentation: Include .yardopts in the gem to fix broken RubyDoc links
 
-## 4.11.0 (August, 15, 2018)
+## 4.11.0 (August 15, 2018)
 
 * Bugfix: Do not raise error for valid build_stubbed methods: decrement, increment, and toggle
 * Bugfix: Do not add timestamps with build_stubbed for objects that shouldn't have timestamps
