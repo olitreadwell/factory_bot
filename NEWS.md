@@ -51,7 +51,7 @@
   * Fixes issue #1754 where `#generate` was throwing an error
   * Refactors the `#increment_sequence` method to remove the URI requirement
 * Fix: Cleans up ActiveSupport core extensions (Neil Carvalho)
-* Fix: Addresses issue #1709 with resolution of conflict between '<attribute>' and '<attribute_id>` (CodeMeister)
+* Fix: Addresses issue #1709 with resolution of conflict between '<attribute>' and '<attribute_id>' (CodeMeister)
 * Fix: Addresses issue #1712 by ensuring callbacks only run once per instance (CodeMeister)
 * Docs: Downcase of the word "constants" in  `.irbrc` file (CodeMeister)
 * Docs: Update docs with note clarifying when the full namespace is required in a factory (John Pitchko)

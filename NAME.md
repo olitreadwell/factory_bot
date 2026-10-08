@@ -6,7 +6,7 @@ This library was [initially released](https://robots.thoughtbot.com/waiting-for-
 in 2008 with the name "Factory Girl".
 
 We chose the name as a nod in the direction of the [Factory method](https://en.wikipedia.org/wiki/Factory_method_pattern)
-and [Object Mother](http://martinfowler.com/bliki/ObjectMother.html) software
+and [Object Mother](https://martinfowler.com/bliki/ObjectMother.html) software
 patterns from the _Design Patterns_ book, and as a reference to the
 [Rolling Stones song](https://www.youtube.com/watch?v=4jKix2DFlnA) of the same
 name.

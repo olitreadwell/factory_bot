@@ -46,7 +46,7 @@ FactoryBot.rewind_sequence(:email)
 generate(:email)
 #=> "global_email_1@example.com"
 
-factoryBot.rewind_sequence(:user, :email)
+FactoryBot.rewind_sequence(:user, :email)
 generate(:user, :email)
 #=> "user_email_1@example.com"
 ```
