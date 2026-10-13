@@ -1,6 +1,6 @@
 # Default callbacks
 
-factory\_bot makes available four callbacks for injecting some code:
+factory\_bot makes available seven callbacks for injecting some code:
 
 * before(:all)    - called before any strategy is used (e.g., `FactoryBot.build`, `FactoryBot.create`, `FactoryBot.build_stubbed`)
 * before(:build)  - called before a factory is built   (via `FactoryBot.build`, `FactoryBot.create`)

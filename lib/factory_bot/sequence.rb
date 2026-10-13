@@ -9,7 +9,7 @@ module FactoryBot
 
     def self.find(*uri_parts)
       if uri_parts.empty?
-        fail ArgumentError, "wrong number of arguments, expected 1+)"
+        fail ArgumentError, "wrong number of arguments, expected 1+"
       else
         find_by_uri FactoryBot::UriManager.build_uri(*uri_parts)
       end
@@ -122,7 +122,7 @@ module FactoryBot
           increment_value
         end
 
-        # loop auto-recues a StopIteration error, so if we
+        # loop auto-rescues a StopIteration error, so if we
         # reached this point, re-raise it now
         fail StopIteration
       end

@@ -25,7 +25,7 @@ This ability works with `build`, `build_stubbed`, `attributes_for`, and `create`
 
 `create_list` and `build_list` methods are supported as well. Remember to pass
 the number of instances to create/build as second parameter, as documented in
-the "Building or Creating Multiple Records" section of this file.
+the [Building or Creating Multiple Records](../building-or-creating-multiple-records/summary.md) section.
 
 ```ruby
 factory :user do

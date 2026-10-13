@@ -1,6 +1,6 @@
 # Callbacks
 
-factory\_bot makes six callbacks available:
+factory\_bot makes seven callbacks available:
 
 | Callback        | Timing                                                                                                                    |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------- |
