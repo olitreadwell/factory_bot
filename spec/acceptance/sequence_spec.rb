@@ -195,9 +195,9 @@ describe "sequences" do
         end
       end
 
-      expect { generate(:test).to raise_error KeyError, /Sequence not registered: :test/ }
-      expect { generate(:user, :test).to raise_error KeyError, /Sequence not registered: user:test/ }
-      expect { generate(:admin, :counter).to raise_error KeyError, /Sequence not registered: "admin:counter"/ }
+      expect { generate(:test) }.to raise_error KeyError, /Sequence not registered: test/
+      expect { generate(:user, :test) }.to raise_error KeyError, %r{Sequence not registered: user/test}
+      expect { generate(:admin, :counter) }.to raise_error KeyError, %r{Sequence not registered: admin/counter}
     end
 
     it "it fails with a sequence that references a scoped attribute, but no scope given" do
