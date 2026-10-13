@@ -11,6 +11,12 @@ describe FactoryBot, "aliases" do
     expect(aliases).to include(:test, :test_id)
   end
 
+  it "for a foreign key should not include a double-suffixed variant" do
+    aliases = FactoryBot.aliases_for(:test_id)
+
+    expect(aliases).not_to include(:test_id_id)
+  end
+
   it "for an attribute which starts with an underscore should not include a non-underscored version" do
     aliases = FactoryBot.aliases_for(:_id)
 
