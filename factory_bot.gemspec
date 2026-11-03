@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
     %w[CONTRIBUTING.md GETTING_STARTED.md LICENSE NAME.md NEWS.md README.md .yardopts]
 
   s.require_path = "lib"
-  s.required_ruby_version = Gem::Requirement.new(">= 3.0.0")
+  s.required_ruby_version = Gem::Requirement.new(">= 3.1.0")
 
   s.authors = ["Josh Clayton", "Joe Ferris"]
   s.email = ["jclayton@thoughtbot.com", "jferris@thoughtbot.com"]
@@ -27,11 +27,14 @@ Gem::Specification.new do |s|
     "rubygems_mfa_required" => "true"
   }
 
-  s.add_dependency("activesupport", ">= 6.1.0")
+  s.add_dependency("activesupport", ">= 7.0.0")
 
   s.add_development_dependency("activerecord")
   s.add_development_dependency("appraisal")
   s.add_development_dependency("aruba")
+  # Floored so Bundler cannot fall back to cucumber 1.x on rubies where the
+  # newest cucumber is excluded by its Ruby requirement.
+  s.add_development_dependency("cucumber", ">= 10")
   s.add_development_dependency("mutex_m")
   s.add_development_dependency("ostruct")
   s.add_development_dependency("rake")
