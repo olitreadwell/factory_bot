@@ -63,7 +63,7 @@ When testing, the scope can be any object that responds to the referenced attrib
 ```ruby
 require 'ostruct'
 
-FactoryBot.define
+FactoryBot.define do
   factory :user do
     sequence(:info) { |n| "#{name}-#{n}-#{age + n}" }
   end

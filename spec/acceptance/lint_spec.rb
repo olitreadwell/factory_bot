@@ -44,7 +44,7 @@ describe "FactoryBot.lint" do
     expect { FactoryBot.lint }.to_not raise_error
   end
 
-  it "runs after_commit callbacks when linting in a ActiveRecord::Base transaction" do
+  it "runs after_commit callbacks when linting in an ActiveRecord::Base transaction" do
     define_model "ModelWithAfterCommitCallbacks" do
       class_attribute :after_commit_callbacks_received
 

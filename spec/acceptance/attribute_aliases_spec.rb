@@ -425,7 +425,7 @@ describe "attribute aliases" do
         user = FactoryBot.create(:user)
         post = FactoryBot.create(:post, user: user)
 
-        # A regression from v6.5.5 erroneously asignes 999 to post.user_id
+        # A regression from v6.5.5 erroneously assigns 999 to post.user_id
         # and leaves post.user assigned to nil
         expect(post.user_id).to eq user.id
         expect(post.user).to eq user

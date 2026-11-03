@@ -14,5 +14,5 @@ optional block. The block is called after the association is built, and is
 passed the object that was built.
 
 The `result` method takes the object that was built for this factory (using
-`initalize_with`), and returns the result of this factory for this build
+`initialize_with`), and returns the result of this factory for this build
 strategy.

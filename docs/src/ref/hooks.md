@@ -1,7 +1,7 @@
 # Hooks
 
 Within a `factory` definition block and the `FactoryBot.define` block, you have
-access to the `after`, `before`, and `callback` methods. This allow you to hook
+access to the `after`, `before`, and `callback` methods. This allows you to hook
 into parts of the [build strategies].
 
 [build strategies]: build-strategies.html
